@@ -1,0 +1,137 @@
+.Home {
+  text-align: center;
+}
+
+.btnEnquire {
+  width: 300px;
+  height: 150px;
+}
+
+.Header-bar {
+  padding-left:25%;
+  padding-right: 25%;
+  text-align: center;
+  background-color: white;
+  height: 120px;
+}
+
+.Header-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.Header-bar li {
+  display: flex;
+  align-items: center;
+}
+
+.Banner {
+  padding: 20px;
+  background-color: #61dafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content; /* You may want to adjust this for mobile */
+  max-width: 1920px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.Banner-text {
+  padding-top: 150px;
+  text-align: center;
+  max-width: 50%;
+}
+
+.Banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  flex: 1;
+}
+
+.Banner-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Banner-text p {
+  padding-bottom: 100px;
+}
+
+.About {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Location {
+  padding-left: 5%;
+  padding-right: 5%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Contact {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Contact ul {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.Contact li {
+  display: flex;
+  align-items: center;
+}
+
+.Contact div {
+  margin-left: 30px;
+}
+
+.FAQ {
+  text-align: center;
+  background-color: aqua;
+  padding: 10px;
+  max-width: 1500px;
+  width: calc(100% - 8%);
+  margin: 0 auto;
+}
+
+.FAQ ul{
+  text-align: left;
+  list-style-type: none;
+}
+
+.Services {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+  height: auto;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.Services div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
