@@ -3,40 +3,73 @@
 }
 
 .btnEnquire {
-  width: 300px;
-  height: 150px;
+  background: linear-gradient(90deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border-radius: 999px;
+  box-shadow: rgba(20,167,62,1) 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: calc(fit-content+5px);
+  word-break: break-word;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .Header-bar {
-  padding-left:25%;
-  padding-right: 25%;
+  padding-left:5%;
+  padding-right: 5%;
   text-align: center;
   background-color: white;
-  height: 120px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .Header-bar ul {
+  gap: 50px;
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  gap: 150px;
+  padding: 0;
 }
 
 .Header-bar li {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.Header-bar img {
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .Banner {
   padding: 20px;
-  background-color: #61dafb;
+  background: rgb(2,128,252);
+  background: linear-gradient(180deg, rgba(2,128,252,1) 0%, rgba(120,209,254,1) 100%); 
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: fit-content; /* You may want to adjust this for mobile */
+  height: fit-content;
   max-width: 1920px;
   margin: 0 auto;
-  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
 .Banner-text {
@@ -76,12 +109,21 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 30px;
 }
 
 .Contact {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-top: 50px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.Contact ul div {
+  width: 135px;
 }
 
 .Contact ul {
@@ -89,26 +131,30 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 15%;
 }
 
 .Contact li {
   display: flex;
   align-items: center;
+  gap: 5%;
 }
 
-.Contact div {
-  margin-left: 30px;
+.Contact img {
+  max-height: 100px;
 }
 
 .FAQ {
   text-align: center;
-  background-color: aqua;
-  padding: 10px;
-  max-width: 1500px;
+  background-color: #1c6fbd;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 1000px;
   width: calc(100% - 8%);
   margin: 0 auto;
 }
+
 
 .FAQ ul{
   text-align: left;
@@ -117,7 +163,8 @@
 
 .Services {
   padding: 10px;
-  background-color: red;
+  background: rgb(190,0,26);
+  background: linear-gradient(90deg, rgba(190,0,26,1) 0%, rgba(24,0,58,1) 50%, rgba(19,66,134,1) 100%); 
   color: white;
   display: flex;
   align-items: center;
@@ -134,4 +181,9 @@
   justify-content: center;
   text-align: center;
   gap: 15px;
+}
+
+.Services a {
+  color: inherit;
+  text-decoration: inherit;
 }
