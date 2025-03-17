@@ -5,39 +5,12 @@ import shop from './imgs/shop.png';
 import React, { useState } from 'react';
 import './Home.css';
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div className='Home'>
-            <header className='Header-bar'>
-                <div>
-                <ul>
-                    <li>
-                    <button>Home</button>
-                    </li>
-                    <li>
-                    <button>About</button>
-                    </li>
-                    <li>
-                    <button>Location</button>
-                    </li>
-                    <li>
-                    <img src={logo} height={100}/>
-                    </li>
-                    <li>
-                    <button>Contact</button>
-                    </li>
-                    <li>
-                    <button>FAQs</button>
-                    </li>
-                    <li>
-                    <button>My Account</button>
-                    </li>
-                </ul>
-                </div>
-            </header>
             <div>
                 <div className='Banner'>
                   <div className='Banner-text'>
@@ -46,7 +19,7 @@ function App() {
                       <button className='btnEnquire'>ENQUIRE PRICE</button>
                   </div>
                   <div className='Banner-image'>
-                      <img src={logo} height={400}/>
+                      <img src={logo}/>
                   </div>
                 </div>
 
@@ -180,4 +153,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
