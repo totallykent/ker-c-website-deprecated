@@ -24,7 +24,7 @@ function App() {
                     <button>Location</button>
                     </li>
                     <li>
-                    <img src={logo} height={100}></img>
+                    <img src={logo} height={100}/>
                     </li>
                     <li>
                     <button>Contact</button>
@@ -46,7 +46,7 @@ function App() {
                       <button className='btnEnquire'>ENQUIRE PRICE</button>
                   </div>
                   <div className='Banner-image'>
-                      <img src={logo} height={400}></img>
+                      <img src={logo} height={400}/>
                   </div>
                 </div>
 
@@ -61,7 +61,7 @@ function App() {
 
                 <div className='Location'>
                 <div className='Location-image'>
-                    <img height={350} width={400} src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.donmai.us%2Foriginal%2F3d%2F72%2F__nanashi_mumei_and_nanashi_mumei_s_horror_painting_hololive_and_1_more_drawn_by_kukie_nyan__3d728ed119392a286a8e6b7c7a5c6909.png%3Fdownload%3D1&f=1&nofb=1&ipt=c59dd28818bb7ca3110788d021f05e519fdbbb49a3b0eea0b1de472c55e3b5e7&ipo=images'></img>
+                    <img height={350} width={400} src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.donmai.us%2Foriginal%2F3d%2F72%2F__nanashi_mumei_and_nanashi_mumei_s_horror_painting_hololive_and_1_more_drawn_by_kukie_nyan__3d728ed119392a286a8e6b7c7a5c6909.png%3Fdownload%3D1&f=1&nofb=1&ipt=c59dd28818bb7ca3110788d021f05e519fdbbb49a3b0eea0b1de472c55e3b5e7&ipo=images'/>
                 </div>
                 <div className='Location-description'>
                     <h2>Ker-C Printing Services</h2>
@@ -72,33 +72,49 @@ function App() {
                 </div>
 
                 <div className='Contact'>
-                <ul>
-                    <li>
-                    <img src={shop} height={150}></img>
-                    <div>
-                        <h3>Opening Hours:</h3>
-                        <h3>Monday - Saturday</h3>
-                        <h3>8:00 AM - 7:00 PM</h3>
-                    </div>
-                    </li>
-                    <li>
-                    <img src={telephone} height={150}></img>
-                    <div>
-                        <h3>Call Us:</h3>
-                        <h3>09276850004</h3>
-                        <h3>09123456789</h3>
-                    </div>
-                    </li>
-                    <li>
-                    <img src={mail} height={150}></img>
-                    <div>
-                        <h3>Send us an Email:</h3>
-                        <h3>kercprinting@gmail.com</h3>
-                    </div>
-                    </li>
-                </ul>
-                <button className='btnEnquire'>ENQUIRE PRICE</button>
+                    <ul>
+                        <li>
+                            <img src={shop}/>
+                            <div>
+                                <h3>Opening Hours:</h3>
+                                <h3>Monday - Saturday</h3>
+                                <h3>8:00 AM - 7:00 PM</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src={telephone}/>
+                            <div>
+                                <h3>Call Us:</h3>
+                                <h3>09276850004</h3>
+                                <h3>09123456789</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src={mail}/>
+                            <div>
+                                <h3>Send us an Email:</h3>
+                                <h3>kercprinting@gmail.com</h3>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <img/>
+                            <div>
+                                <h3>Message Us:</h3>
+                                <h3><a href="">KER-C Printing Services</a></h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img/>
+                            <div>
+                                <h3>Follow Us</h3>
+                                <h3>KER-C Printing Services</h3>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+                <button className='btnEnquire'>ENQUIRE PRICE</button>
 
                 <div className='FAQ'>
                     <h1>KER-C FAQs</h1>
