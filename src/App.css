@@ -34,6 +34,11 @@
   margin-right: 75px;
 }
 
+.Header-bar a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .Footer {
   padding: 10px;
   background: rgb(190,0,26);
