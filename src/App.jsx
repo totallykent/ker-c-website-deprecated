@@ -13,42 +13,36 @@ import CustomerOrder from './PageCustomer/CustomerOrder.jsx';
 import PageInquiry from './PageInquiry/InquiryPage.jsx';
 import './App.css';
 import InquiryPage from './PageInquiry/InquiryPage.jsx';
+import { Squash as Hamburger } from 'hamburger-react';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [isOpen, setIsOpen] = useState(0);
+  
   return (
     <>
       <div className="App">
         <header className='Header-bar'>
-          <div>
-            <ul>
-              <li>
-                <a href="#home" className="tile">Home</a>
-              </li>
-              <li>
-                <a href="#about" className="tile">About</a>
-              </li>
-              <li>
-                <a href="#location" className="tile">Location</a>
-              </li>
-              <li>
-                <img src={logo} height={100} alt="Logo" />
-              </li>
-              <li>
-                <a href="#contact" className="tile">Contact</a>
-              </li>
-              <li>
-                <a href="#faqs" className="tile">FAQs</a>
-              </li>
-              <li>
-                <a href="#my-account" className="tile">My Account</a>
-              </li>
-            </ul>
+          <div className="nav-container">
+            <div className="hamburger-menu">
+              <Hamburger toggled={isOpen} toggle={setIsOpen} />
+            </div>
+            <img src={logo} height={80} alt="Logo" className="mobile-logo" />
+            <nav className={`nav-links ${isOpen ? "open" : ""}`}>
+              <ul>
+                <li><a href="#home" className="tile">Home</a></li>
+                <li><a href="#about" className="tile">About</a></li>
+                <li><a href="#location" className="tile">Location</a></li>
+                <li><img src={logo} height={80} alt="Logo" className="pc-logo" /></li>
+                <li><a href="#contact" className="tile">Contact</a></li>
+                <li><a href="#faqs" className="tile">FAQs</a></li>
+                <li><a href="#my-account" className="tile">My Account</a></li>
+              </ul>
+            </nav>
           </div>
         </header>
 
-        <InquiryPage /> {/*  Opens Home.jsx  */}
+        <Home /> {/*  Opens Home.jsx  */}
 
         <footer className='Footer'>
           <div className='Copyright'>

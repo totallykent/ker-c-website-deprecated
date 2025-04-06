@@ -13,10 +13,10 @@ import './InquiryPage.css';
 
 
 const data = [
-  { image: tshirt, name: "T-shirt printing", description: "High-quality custom t-shirts." },
+  { image: tshirt, name: "T-shirt printing", description: "We use high-quality screen printing to create durable and vibrant designs for personal, business, or event needs. Perfect for bulk orders with a professional finish." },
   { image: printing, name: "Printing", description: "Professional printing services." },
   { image: calendar, name: "Calendar", description: "Custom-designed calendars." },
-  { image: tarpaulin, name: "Tarpaulin", description: "Durable tarpaulin prints." },
+  { image: tarpaulin, name: "Tarpaulin", description: "We offer high-resolution tarpaulin printing for banners, signage, and events. Designed for durability and vibrant color, our prints are perfect for indoor and outdoor use." },
   { image: invitation, name: "Invitation Card", description: "Elegant invitation cards." },
 ];
 
