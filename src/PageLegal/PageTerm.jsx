@@ -7,10 +7,10 @@ function PageTerm() {
   return (
     <>
         <div className='TermsCondition'>
-            <h1 style={{margin: 0, marginTop: 15}}>Terms and Condition</h1>
-            <p style={{margin: 5}}><i>Last Updated: May 5, 2025</i></p>
+            <h1 style={{margin: 0, marginTop: 20}}>Terms and Condition</h1>
+            <p style={{margin: 5}}><i>Last Updated: April 12, 2025</i></p>
             <div className='Paragraphs'>
-            <p style={{textAlign: 'justify', textIndent: '5%'}}><strong>Introduction:</strong> These Website Standard Terms and Conditions written on this webpage shall manage your use of this website. These Terms will be applied fully and affect your use of this Website. By using this Website, you agree to accept all terms and conditions written here. You must not use this Website if you disagree with any of these Website Standard Terms and Conditions.</p>
+            <p style={{textAlign: 'justify', textIndent: '5%', marginBottom: 50}}><strong>Introduction:</strong> These Website Standard Terms and Conditions written on this webpage shall manage your use of this website. These Terms will be applied fully and affect your use of this Website. By using this Website, you agree to accept all terms and conditions written here. You must not use this Website if you disagree with any of these Website Standard Terms and Conditions.</p>
                 <h3>1. Eligibility</h3>
                 <ul>
                     <li>You must be at least 18 years old to create an account.</li>
